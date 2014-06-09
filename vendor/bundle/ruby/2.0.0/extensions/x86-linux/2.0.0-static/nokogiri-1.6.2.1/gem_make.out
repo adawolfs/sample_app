@@ -1,0 +1,132 @@
+/usr/local/bin/ruby extconf.rb --use-system-libraries
+Building nokogiri using system libraries.
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling xml_sax_parser.c
+compiling xml_libxml2_hacks.c
+compiling xml_relax_ng.c
+compiling xml_dtd.c
+compiling xml_schema.c
+compiling html_sax_parser_context.c
+compiling xml_io.c
+compiling html_sax_push_parser.c
+compiling xml_entity_decl.c
+compiling html_element_description.c
+html_element_description.c: En la función ‘get_description’:
+html_element_description.c:252:10: aviso: la conversión descarta el calificador ‘__attribute__((const))’ del tipo del destino del puntero [-Wcast-qual]
+compiling xml_reader.c
+compiling xml_sax_parser_context.c
+compiling html_document.c
+compiling xml_node_set.c
+xml_node_set.c: En la función ‘dealloc_namespace’:
+xml_node_set.c:9:13: aviso: la conversión descarta el calificador ‘__attribute__((const))’ del tipo del destino del puntero [-Wcast-qual]
+xml_node_set.c:11:13: aviso: la conversión descarta el calificador ‘__attribute__((const))’ del tipo del destino del puntero [-Wcast-qual]
+compiling xml_xpath_context.c
+compiling nokogiri.c
+compiling xml_attribute_decl.c
+compiling html_entity_lookup.c
+compiling xml_namespace.c
+compiling xml_element_decl.c
+compiling xml_text.c
+compiling xml_processing_instruction.c
+compiling xml_element_content.c
+compiling xml_attr.c
+compiling xml_document_fragment.c
+compiling xml_sax_push_parser.c
+compiling xml_node.c
+xml_node.c: En la función ‘mark’:
+xml_node.c:17:20: aviso: inicialización desde un tipo de puntero incompatible [activado por defecto]
+xml_node.c: En la función ‘reparent_node_with’:
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_ATTRIBUTE_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_ENTITY_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_DOCUMENT_FRAG_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_NOTATION_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_HTML_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_DTD_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_ELEMENT_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_ATTRIBUTE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_ENTITY_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_NAMESPACE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_XINCLUDE_START’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_XINCLUDE_END’ no se maneja en un switch [-Wswitch]
+xml_node.c:168:7: aviso: el valor de enumeración ‘XML_DOCB_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_ATTRIBUTE_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_ENTITY_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_DOCUMENT_TYPE_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_DOCUMENT_FRAG_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_NOTATION_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_HTML_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_DTD_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_ELEMENT_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_ATTRIBUTE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_ENTITY_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_NAMESPACE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_XINCLUDE_START’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_XINCLUDE_END’ no se maneja en un switch [-Wswitch]
+xml_node.c:186:7: aviso: el valor de enumeración ‘XML_DOCB_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_ELEMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_ATTRIBUTE_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_CDATA_SECTION_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_ENTITY_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_PI_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_COMMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_DOCUMENT_TYPE_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_DOCUMENT_FRAG_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_NOTATION_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_HTML_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_DTD_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_ELEMENT_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_ATTRIBUTE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_ENTITY_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_NAMESPACE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_XINCLUDE_START’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_XINCLUDE_END’ no se maneja en un switch [-Wswitch]
+xml_node.c:197:7: aviso: el valor de enumeración ‘XML_DOCB_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_CDATA_SECTION_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_ENTITY_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_PI_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_COMMENT_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_DOCUMENT_TYPE_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_NOTATION_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_DTD_NODE’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_ELEMENT_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_ATTRIBUTE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_ENTITY_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_NAMESPACE_DECL’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_XINCLUDE_START’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_XINCLUDE_END’ no se maneja en un switch [-Wswitch]
+xml_node.c:165:5: aviso: el valor de enumeración ‘XML_DOCB_DOCUMENT_NODE’ no se maneja en un switch [-Wswitch]
+compiling xml_syntax_error.c
+compiling xslt_stylesheet.c
+compiling xml_entity_reference.c
+compiling xml_document.c
+xml_document.c: En la función ‘set_encoding’:
+xml_document.c:159:12: aviso: la conversión descarta el calificador ‘__attribute__((const))’ del tipo del destino del puntero [-Wcast-qual]
+xml_document.c: En la función ‘canonicalize’:
+xml_document.c:506:15: aviso: la conversión descarta el calificador ‘__attribute__((const))’ del tipo del destino del puntero [-Wcast-qual]
+compiling xml_cdata.c
+compiling xml_encoding_handler.c
+compiling xml_comment.c
+linking shared-object nokogiri/nokogiri.so
+Cleaning files only used during build.
+rm -rf /home/adawolfs/RubymineProjects/firstTest/sample_app/vendor/bundle/ruby/2.0.0/gems/nokogiri-1.6.2.1/ports/archives
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20140609-4745-1bf4s1p/nokogiri
+installing default nokogiri libraries
