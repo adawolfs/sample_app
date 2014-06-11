@@ -1,0 +1,4 @@
+#generate controllers
+rails generate controller controller_name	
+rails g controller controller_name
+#note: add --no-test-framework   if dont want to create test files
