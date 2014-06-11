@@ -14,8 +14,11 @@ rails g controller controller_name
  #			migrate database
 rake db:migrate
 
+#			rest database
+rake db:reset
 
-
+#			drop database
+rake db:drop
 
 
 #			Open rails console
