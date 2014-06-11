@@ -1,4 +1,24 @@
-#generate controllers
+#             generate controllers
 rails generate controller controller_name	
 rails g controller controller_name
 #note: add --no-test-framework   if dont want to create test files
+
+
+#			generate models
+ rails generate model model_name attribute:type attribute2:type ...
+ rails g model model model_name attribute:type attribute2:type ...	
+
+ #			create database
+ rake db:create
+
+ #			migrate database
+rake db:migrate
+
+
+
+
+
+#			Open rails console
+rails console
+rails c
+#note: add --sandbox to rollback after close the console
