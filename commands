@@ -25,3 +25,13 @@ rake db:drop
 rails console
 rails c
 #note: add --sandbox to rollback after close the console
+
+#			Upload to heroku
+git push heroku
+
+#			Open heroku
+heroku open
+
+#			View heroku logs
+heroku logs
+
